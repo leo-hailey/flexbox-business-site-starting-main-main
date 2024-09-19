@@ -26,6 +26,16 @@ body {
     color: #f4f4f4;
 }
 
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #303030;
+}
+
+p{
+    color:#303030;
+}
+
 
 
 /* Header */
@@ -61,7 +71,10 @@ body {
 #navbar{
     background-color: var(--primary);
     border-bottom: 2px solid var(--tri);
+    position: sticky;
+    top: 0;
 }
+
 
 .nav {
     display: flex;
@@ -76,14 +89,16 @@ body {
     display: flex;
     gap: 7rem;
     margin-right: 10rem ;
+    font-size: 1.3rem;
 }
 
 a{
-    color: #6300cc
+    color: #6300cc;
+    text-decoration: none;
 }
 
 a:hover{
-    color: #0099cc
+    color: #0099cc;
 }
 
 i {
@@ -129,16 +144,13 @@ button {
 /* Testimonials */
 .testimonials{
     background-color: var(--secondary);
-    margin: 7rem;
-    padding: 3rem;
-    
+    margin-top: 7rem;
+    padding: 1.5rem 0 2rem;
+    border-top: 2px solid var(--tri);
+    border-bottom: 2px solid var(--tri);
 }
 
-.testimonials h2 {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    color: #303030;
-}
+
 
 .customer-testimonials  {
     display: grid;
@@ -155,6 +167,33 @@ button {
     border-radius: 50%;
 }
 
+.our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.team-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+}
+
+.team-img p {
+    margin-bottom: 3rem;
+    max-width: 250px;
+    align-self: center;
+}
+
+
+footer {
+    background-color: var(--tri);
+    padding: 1.5rem;
+    color: #f4f4f4;
+}
 
 
 /* Media Queries */
