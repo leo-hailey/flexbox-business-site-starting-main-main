@@ -189,6 +189,22 @@ button {
 }
 
 
+.our-mission p{
+    max-width: 50rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.our-mission span {
+    font-weight: 700;
+}
+
+.back-to-top p{
+    margin-bottom: 1.5rem;
+    color: #6300cc;
+}
+
 footer {
     background-color: var(--tri);
     padding: 1.5rem;
@@ -234,6 +250,10 @@ footer {
     }
     .customerimg:nth-child(2){
         display: none;
+    }
+
+    .our-mission p {
+        padding: 1.5rem;
     }
     
     
